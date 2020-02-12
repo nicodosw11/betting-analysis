@@ -332,3 +332,67 @@ The odds of 60.00 on offer imply a probability of the horse winning at 1/60.
 (59/60 - 1/60d + 1/60)) = 0.002d - 0.002   
 0.998 = (1/60d + 0.002d)  
 0.998 / ((1/60) + 0.002)) = 53.4642857143 
+
+4 Closed position
+-----------------
+
+Please read:
+
+* [How to hedge your bets.](https://help.smarkets.com/hc/en-gb/articles/115001396171-How-to-hedge-your-bets)
+* [How to calculate a hedge bet.](https://help.smarkets.com/hc/en-gb/articles/115001431011-How-to-calculate-a-hedge-bet)
+
+### 4.1
+
+A gambler opened a position by backing a horse to win with £100 stake when the price was 6.0. The price has shortened to 5.0, which the gambler believes to be the fair price.
+
+Calculate the gambler's turnover, PnL and RoI for the outcomes:
+
+* The horse wins.
+* The horse loses.
+
+Calculate the gambler's EV and expected RoI.
+
+| Outcome         | Turnover at stake | PnL                                   | RoI                  |
+| --------------- | ----------------- | ------------------------------------- | -------------------- |
+| The horse wins  | £100              | £100 x 6 - £100 = £600 - £100 = +£500 | +£500 / £100 = 500%  |
+| The horse loses | £100              | -£100                                 | -£100 / £100 = -100% |
+
+Implied Probability = 1/5 is .20   
+EV = (0.2 x (5 x £100) - (0.8 x £100)) = 0.2 x £500 - 0.8 x £100 = £100 - £80 = £20   
+Expected RoI = ( £20 / £100)% = 20%   
+
+### 4.2
+
+The gambler closes the position by laying the horse to win with £120 stake at price 5.0.
+
+Including the bet in 4.1, calculate the gambler's turnover, PnL and RoI for the outcomes:
+
+* The horse wins.
+* The horse loses.
+
+Calculate the gambler's EV and expected RoI.
+
+| Outcome         | Turnover at stake | back bet                              | lay bet                               | PnL  | RoI               |
+| --------------- | ----------------- | ------------------------------------- | ------------------------------------- | ---- | ----------------- |
+| The horse wins  | £100              | £100 x 6 - £100 = £600 - £100 = +£500 | -£120 x ( 5 - 1 ) = -£120 x 4 = -£480 | +£20 | +£20 / £100 = 20% |
+| The horse loses | £100              | -£100                                 | +£120                                 | +£20 | +£20 / £100 = 20% |
+
+Implied Probability = 1/5 is .20   
+EV = (0.2 x (5 x £100) - (0.8 x £100) + 0.8 x (£120) - 0.2 x (4 x £120)) = £100 - £80 + £96 - £96 = £20   
+Expected RoI = ( £20 / £100)% = 20% 
+
+### 4.3
+
+* What is the same about the open and closed positions? What is different?
+
+Same Expected Value (£20) but we lock in a guaranteed £20 profit regardless of the result. However potential £500 profit / 500% RoI are reduced significantly. 
+
+* What are the advantages and disadvantages of closing a position?
+
+One benefit of closing a position is the opportunity to cut your loss and minimise your potential exposure if the odds have moved in the opposite direction. For example, rather than let your back bet ride and risk the exposure of your stake, you could decide to hedge your bet by laying the outcome.
+Another benefit of closing a position is that you can secure a guaranteed profit. In our case we close our position and lock in a guaranteed £20 profit regardless of the result. 
+Obviously the disadvantage is that you will give up on your initial belief for a greater profit and therefore closing your position will reduce your potential ROI. 
+
+* How did the gambler calculate the stake to close the position?
+
+Hedging calculation = (back price * back stake) / current lay odds = (6 x 100) / 5 = £120 
