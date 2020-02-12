@@ -265,10 +265,10 @@ We calculate the value: (25% multiplied by 4.00) - 100% = 0%.
 Betting full Kelly the stake should be: bankroll * (overlay/(odds - 1))   
 100000 * (0/(4 - 1 ))  
 
-Full Reverse Kelly = [(0.25 * 4.00) - 1] / (4.00 - 1)   
+Full Kelly = [(0.25 * 4.00) - 1] / (4.00 - 1)   
 [(0.25 * 4.00) - 1] / 3   
 [1 - 1] / 3   
-0 / 1   
+0 / 3   
 0, i.e. the stake should be 0% of the bank.   
 EV = 0   
 Expected RoI = 0  
@@ -281,13 +281,13 @@ We calculate the value (overlay): (25% multiplied by 5.00) - 100% = 25%.
 Betting full Kelly the stake should be: bankroll * (overlay/(odds - 1))     
 100000 * (0.25/(5 - 1 ))  
 
-Full Reverse Kelly = [(0.25 * 5.00) - 1] / (5.00 - 1)   
+Full Back Kelly = [(0.25 * 5.00) - 1] / (5.00 - 1)   
 [(0.25 * 5.00) - 1] / 4   
 [1.25 - 1] / 4   
-0.25 / 1   
-0.25, i.e. the stake should be 25% of the bank, i.e £25,000   
-EV = (0.25 x (4 x £25,000) – (0.75 x £25,000) = £25,000 - £18,750 = £6,250   
-Expected RoI = ( £6,250 / £25,000)% = 25%  
+0.25 / 4   
+0.0625, i.e. the stake should be 25% of the bank, i.e £6,250  
+EV = (0.25 x (4 x £6,250) – (0.75 x £6,250) = £6,250 - £4,687.50 = £1,562.50 
+Expected RoI = ( £1,562.50 / £6,250 )% = 25%  
 
 5. odds of 6.00 to win.
 
@@ -298,13 +298,13 @@ We calculate the value: (25% multiplied by 6.00) - 100% = 50%.
 Betting full Kelly the stake should be: bankroll * (overlay/(odds - 1))    
 100000 * (0.5/(6 - 1 )) 
 
-Full Reverse Kelly = [(0.25 * 6.00) - 1] / (6.00 - 1)   
+Full Back Kelly = [(0.25 * 6.00) - 1] / (6.00 - 1)   
 [(0.25 * 6.00) - 1] / 5   
 [1.5 - 1] / 5   
-0.5 / 1   
-0.5, i.e. the stake should be 50% of the bank, i.e £50,000   
-EV = (0.25 x (5 x £50,000) – (0.75 x £50,000) = £62,500 - £37,500 = £25,000   
-Expected RoI = ( £25,000 / £50,000 )% = 50%   
+0.5 / 5   
+0.1, i.e. the stake should be 50% of the bank, i.e £10,000   
+EV = (0.25 x (5 x £10,000) – (0.75 x £10,000) = £12,500 - £7,500 = £5,000   
+Expected RoI = ( £5,000 / £10,000 )% = 50%   
 
 
 ### 3.2
